@@ -1,0 +1,35 @@
+2025.06.26 15:33:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/chad/dev/os-config/.metals/lsp.trace.json
+2025.06.26 15:33:41 ERROR Failed to get project directories
+java.lang.NumberFormatException: For input string: "25-ea"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.lang.Integer.parseInt(Integer.java:564)
+	at java.lang.Integer.parseInt(Integer.java:661)
+	at dev.dirs.jni.WindowsJni.getJdkAwareSupplier(WindowsJni.java:25)
+	at scala.meta.internal.metals.MetalsProjectDirectories$.$anonfun$fromPath$1(MetalsProjectDirectories.scala:41)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1735)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1726)
+	at java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1650)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:508)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1394)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1970)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+
+2025.06.26 15:33:42 ERROR Failed to get project directories
+java.lang.NumberFormatException: For input string: "25-ea"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.lang.Integer.parseInt(Integer.java:564)
+	at java.lang.Integer.parseInt(Integer.java:661)
+	at dev.dirs.jni.WindowsJni.getJdkAwareSupplier(WindowsJni.java:25)
+	at scala.meta.internal.metals.MetalsProjectDirectories$.$anonfun$from$1(MetalsProjectDirectories.scala:33)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1447)
+
+2025.06.26 15:33:42 INFO  logging to files /home/chad/dev/os-config/.metals/metals.log
+2025.06.26 15:33:42 INFO  Started: Metals version 1.6.0 in folders '/home/chad/dev/os-config' for client Visual Studio Code 1.101.2.
+2025.06.26 15:33:43 WARN  no build tool detected in workspace '/home/chad/dev/os-config'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2025.06.26 15:33:43 WARN  Build server is not auto-connectable.
