@@ -16,9 +16,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash;
 sh -c "$(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)" -p nordvpn-gui;
 
+sudo apt install -y nordvpn-gui;
+sudo groupadd nordvpn;
+sudo usermod -aG nordvpn $USER;
+
 cp ./zprofile ~/.zprofile;
 cp ./zshrc ~/.zshrc;
 
 sudo snap install steam;
 sudo snap install discord;
 sudo snap install plex-desktop;
+
