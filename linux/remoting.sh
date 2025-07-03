@@ -5,12 +5,9 @@ sudo apt install -y \
   remmina \
   remmina-plugin-rdp \
   remmina-plugin-vnc \
-  remmina-plugin-spice \
-  remmina-plugin-secret \
-  remmina-plugin-nx \
-  remmina-plugin-exec \
-  sunshine;
+  remmina-plugin-secret;
 
 sudo systemctl enable xrdp;
 sudo systemctl start xrdp;
-
+sudo adduser xrdp ssl-cert;
+sudo systemctl restart xrdp;
