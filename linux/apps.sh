@@ -10,11 +10,11 @@ sudo apt install -y \
   pyenv \
   zsh-syntax-highlighting \
   zsh-autosuggestions \
-  nordvpn-gui \
   cifs-utils;
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash;
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh) -p nordvpn-gui;
 
 cp ./zprofile ~/.zprofile;
 cp ./zshrc ~/.zshrc;

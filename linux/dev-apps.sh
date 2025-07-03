@@ -3,5 +3,5 @@ sudo apt upgrade;
 sudo apt install -y \
   openjdk-25-jdk;
 
-snap install --classic code;
-snap install --classic intellij-idea-community;
+sudo snap install --classic code;
+sudo snap install --classic intellij-idea-community;
